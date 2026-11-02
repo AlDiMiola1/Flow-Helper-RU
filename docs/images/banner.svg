@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Flow Helper RU</title><desc id="desc">Experimental Chrome extension for Google Flow</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152f"/><stop offset=".55" stop-color="#142c63"/><stop offset="1" stop-color="#35135e"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#39c6ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <circle cx="1010" cy="60" r="190" fill="#6d28d9" opacity=".17"/>
+  <circle cx="100" cy="300" r="220" fill="#0284c7" opacity=".15"/>
+  <path d="M0 250 C240 170 330 340 590 230 S970 180 1200 240" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65" filter="url(#glow)"/>
+  <g transform="translate(82 72)"><rect width="156" height="156" rx="34" fill="#0b1d42" stroke="#60a5fa" stroke-width="2"/><path d="M47 116V40h63v18H68v14h37v18H68v26z" fill="#f8fafc"/><path d="M113 77l25 14-25 14z" fill="#22c55e"/><path d="M113 77l25 14-25-14z" fill="#facc15"/><path d="M113 77l25 14-25 14-25-14z" fill="#38bdf8" opacity=".95"/></g>
+  <text x="286" y="132" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700">Flow Helper RU</text>
+  <text x="290" y="181" fill="#dbeafe" font-family="Arial,Helvetica,sans-serif" font-size="25">Экспериментальное расширение Chrome для Google Flow</text>
+  <g transform="translate(290 211)"><rect width="182" height="34" rx="17" fill="#1e40af" stroke="#60a5fa"/><circle cx="19" cy="17" r="6" fill="#4ade80"/><text x="35" y="22" fill="#eff6ff" font-family="Arial,Helvetica,sans-serif" font-size="14">Локальная обработка</text><rect x="194" width="150" height="34" rx="17" fill="#312e81" stroke="#a78bfa"/><text x="216" y="22" fill="#ede9fe" font-family="Arial,Helvetica,sans-serif" font-size="14">Manifest V3</text></g>
+</svg>

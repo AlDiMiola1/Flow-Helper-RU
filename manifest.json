@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Flow Helper RU",
+  "version": "1.0.0",
+  "description": "Локальный переключатель региональной проверки интерфейса Google Flow.",
+  "minimum_chrome_version": "111",
+  "permissions": ["scripting", "storage", "tabs"],
+  "host_permissions": ["https://flow.google.com/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Flow Helper RU", "default_popup": "popup.html"}
+}
